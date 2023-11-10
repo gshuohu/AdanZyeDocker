@@ -7,4 +7,4 @@ RUN javac app1.java
 FROM anapsix/alpine-java
 WORKDIR /usr/src/myapp
 COPY --from=builder /usr/src/myapp .
-CMD ["java", "app12"]
+CMD ["java", "app1"]
